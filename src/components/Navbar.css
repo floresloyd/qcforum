@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #000; /* black background */
+  color: #fff; /* white text */
+  padding: 0.5rem 1rem; /* padding around the navbar */
+  display: flex; /* use flexbox for layout */
+  align-items: center; /* center items vertically */
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px; /* maximum width of the navbar */
+  margin: 0 auto; /* center the navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This will push the brand and links to opposite sides */
+}
+
+.navbar-brand {
+  color: #fff; /* white text for brand */
+  text-decoration: none; /* remove underline from brand */
+  font-weight: bold; /* make brand text bold */
+}
+
+.nav-links {
+  /* This container will hold the navigation links */
+  display: flex; /* Align the links in a row */
+}
+
+.nav-link {
+  color: #fff; /* white text for links */
+  text-decoration: none; /* remove underline from links */
+  margin-left: 1rem; /* margin to the left of links */
+  padding: 0.25rem 0; /* padding on top and bottom for clickable area */
+}
+
+/* No underline on hover for nav-link */
+.nav-link:hover {
+  text-decoration: none;
+  color: #fff; /* Keep the text color white on hover */
+}
+
+.navbar-brand:hover {
+  color: #fff; /* Keep the text color white on hover */
+  text-decoration: none; /* Ensures no underline appears */
+}
+
+.navbar-brand:active,
+.navbar-brand:focus {
+  color: #fff; /* Keep the text color white */
+  text-decoration: none; /* Ensures no underline appears */
+  outline: none; /* Removes the focus outline */
+}
+
+/* Add any other styling you need here */
