@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Form.css";
+import { supabase } from "../Client";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -19,9 +20,34 @@ const Form = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+    const subject = formData.subject;
+    const coursecode = formData.courseCode;
+    const p_firstname = formData.professorFirstName;
+    const p_lastname = formData.professorLastName;
+    const title = formData.header;
+    const comment = formData.comment;
+
+    console.log(
+      "test" + subject,
+      coursecode,
+      p_firstname,
+      p_lastname,
+      title,
+      comment
+    );
+    await supabase
+      .from("Posts")
+      .insert({
+        subject,
+        coursecode,
+        p_firstname,
+        p_lastname,
+        title,
+        comment,
+      })
+      .select();
   };
 
   return (
