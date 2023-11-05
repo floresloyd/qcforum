@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import Create from "./pages/Create";
 import Search from "./pages/Search";
 import Recent from "./pages/Recent";
+import Info from "./pages/Info";
+
 function App() {
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
           <Route path="/create" element={<Create />}></Route>
           <Route path="/search" element={<Search />}></Route>
           <Route path="/recent" element={<Recent />}></Route>
+          <Route path="/:id/info" element={<Info />}></Route>
         </Routes>
       </BrowserRouter>
     </>

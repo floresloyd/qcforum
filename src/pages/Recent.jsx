@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 import Card from "../components/Card";
 import "./Recent.css";
@@ -17,7 +18,6 @@ function Recent() {
 
         // Set our data our state
         setPosts(data);
-        console.log("test" + posts[0].subject);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -49,13 +49,3 @@ function Recent() {
 }
 
 export default Recent;
-
-// <Card
-// title="Hell with heller"
-// subject="CSCI"
-// code="331"
-// professor="Peter Heller"
-// date="11/5/2023"
-// post="Worst professor, i learned sql but at what cost. THe man is making me do work as if i was his intern"
-// likes={2}
-// ></Card>

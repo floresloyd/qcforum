@@ -1,13 +1,12 @@
 /* eslint-disable react/prop-types */
 import "./Card.css";
-function Card({ title, subject, code, professor, date, likes, post }) {
+import { Link } from "react-router-dom";
+
+function Card({ id, title, subject, code, professor, date, post }) {
   const onComment = () => {
-    alert("REDIRECT TO MORE COMMENTS");
+    alert("Redirecting to post");
   };
 
-  const onLike = () => {
-    alert("ADD A LIKE");
-  };
   return (
     <div className="card">
       <div className="card-header">{title}</div>
@@ -16,13 +15,11 @@ function Card({ title, subject, code, professor, date, likes, post }) {
         <h6 className="card-subtitle mb-2 text-muted">{professor}</h6>
         <h6 className="card-subtitle mb-2 text-muted">{date.split("T")[0]}</h6>
         <p className="card-text">{post}</p>
-        <button onClick={onLike} className="button">
-          {" "}
-          Likes : {likes}
-        </button>
-        <button onClick={onComment} className="button">
-          Comment
-        </button>
+        <Link to={`/${id}/info`}>
+          <button onClick={onComment} className="button">
+            More Info
+          </button>
+        </Link>
       </div>
     </div>
   );
