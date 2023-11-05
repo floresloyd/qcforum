@@ -12,11 +12,36 @@ const Form = () => {
     comment: "",
   });
 
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
   const handleChange = (e) => {
     const { name, value } = e.target;
+    let transformedValue = value;
+
+    // Convert all subject code to capital
+    if (name === "subject") {
+      transformedValue = value.toUpperCase();
+    }
+
+    // CourseCode must only be numbers
+    if (name === "courseCode" && isNaN(value)) {
+      return;
+    }
+
+    // Ensure the first letter of professorFirstName is capitalized
+    if (name === "professorFirstName") {
+      transformedValue = capitalizeFirstLetter(value);
+    }
+
+    if (name === "professorLastName") {
+      transformedValue = capitalizeFirstLetter(value);
+    }
+
     setFormData((prevState) => ({
       ...prevState,
-      [name]: value,
+      [name]: transformedValue,
     }));
   };
 
@@ -29,14 +54,7 @@ const Form = () => {
     const title = formData.header;
     const comment = formData.comment;
 
-    console.log(
-      "test" + subject,
-      coursecode,
-      p_firstname,
-      p_lastname,
-      title,
-      comment
-    );
+    // Create entry @ Supabase
     await supabase
       .from("Posts")
       .insert({
@@ -48,6 +66,9 @@ const Form = () => {
         comment,
       })
       .select();
+
+    alert("Post Created");
+    window.location = "/recent";
   };
 
   return (
@@ -75,7 +96,8 @@ const Form = () => {
             value={formData.courseCode}
             onChange={handleChange}
             required
-            placeholder="313"
+            pattern="\d+"
+            placeholder="Numbers Only // Example 313"
           />
         </div>
         <div className="form-group professor-name-group">
