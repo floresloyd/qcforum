@@ -123,7 +123,9 @@ const Form = () => {
             placeholder="He was a great professor. The class was exam heavy. 20% For Midterm 1 and 2. 50% Final. 10% Attendance"
           />
         </div>
-        <button type="submit">Create</button>
+        <button type="submit" className="button">
+          Create
+        </button>
       </form>
     </div>
   );

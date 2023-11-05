@@ -1,32 +1,31 @@
-.create-post-container {
-  margin: 25px auto auto auto;
-  padding: 1rem;
-  max-width: 600px;
-  background-color: #f3f3f3;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.card {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
 }
 
-.form-group {
-  margin-bottom: 1rem;
+.card-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
+.card-title {
+  font-size: 1em;
+  margin-bottom: 5px;
 }
 
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.card-subtitle {
+  font-size: 0.85em;
+  margin-bottom: 15px;
 }
 
-.form-group textarea {
-  height: 100px;
-  resize: vertical;
+.card-text {
+  font-size: 0.9em;
+  margin-bottom: 15px;
 }
 
 .button {
