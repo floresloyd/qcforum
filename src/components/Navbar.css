@@ -4,6 +4,7 @@
   padding: 0.5rem 1rem; /* padding around the navbar */
   display: flex; /* use flexbox for layout */
   align-items: center; /* center items vertically */
+  border: 1px solid #fff;
 }
 
 .navbar-container {

@@ -1,0 +1,15 @@
+/* Home.css */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  flex-direction: column; /* Stack items vertically */
+  text-align: center; /* Center text horizontally for all child elements */
+}
+
+/* If you also want to style your h1 specifically */
+.centered-container h1 {
+  margin: 0; /* Removes default margin */
+  /* Any other styles you want for your h1 */
+}
