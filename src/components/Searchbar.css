@@ -1,0 +1,46 @@
+/* Add this to your CSS file */
+.search-container {
+  background-color: #333; /* dark background */
+  color: white; /* white text */
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container select,
+.search-container input {
+  background-color: #555; /* slightly lighter dark shade for input fields */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  background-color: #f0ad4e; /* bootstrap's btn-warning color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-container button.delete {
+  background-color: #d9534f; /* bootstrap's btn-danger color */
+}
+
+/* Add some hover effects for buttons */
+.search-container button:hover {
+  opacity: 0.9;
+}
+
+/* Focus styles for input and select */
+.search-container input:focus,
+.search-container select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f0ad4e; /* glow effect */
+}

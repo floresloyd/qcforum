@@ -8,3 +8,37 @@
 .margin-top {
   margin-top: 2rem;
 }
+
+/* Recent.css */
+.button-style {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+  opacity: 0.8;
+}
+
+/* Assuming that the edit button is yellow and the delete button is red, 
+   you can define two more classes for your sorting buttons. */
+
+.sort-by-date {
+  background-color: #3498db; /* Blue color */
+  color: white;
+  margin-right: 5px; /* Add some space between buttons */
+}
+
+.sort-by-likes {
+  background-color: #3498db; /* Blue color */
+  color: white;
+}
+
+/* Adjust margins as needed for layout */
+.sorting-buttons {
+  margin-bottom: 20px; /* Adjust as needed */
+}
