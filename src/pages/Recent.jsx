@@ -38,13 +38,10 @@ function Recent() {
   return (
     <div className="container margin-top">
       <div className="sorting-buttons">
-        <button
-          className="button-style sort-by-date"
-          onClick={sortByCreationDate}
-        >
+        <button className="sortby-like-button" onClick={sortByCreationDate}>
           Sort by Date
         </button>
-        <button className="button-style sort-by-likes" onClick={sortByLikes}>
+        <button className="sortby-date-button" onClick={sortByLikes}>
           Sort by Likes
         </button>
       </div>
