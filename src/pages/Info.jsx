@@ -88,10 +88,10 @@ function Info() {
       {comments.length > 0 ? (
         comments.map((comment) => (
           <Comment
-            postid={id}
+            postId={id}
             key={comment.id}
             date={formatDate(comment.created_at)}
-            commentid={comment.id}
+            commentId={comment.id}
             commentText={comment.response}
           />
         ))

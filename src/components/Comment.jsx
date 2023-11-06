@@ -3,7 +3,7 @@
 import "./Comment.css";
 import { supabase } from "../Client";
 
-const Comment = ({ commentText, date, postid, commentId }) => {
+const Comment = ({ commentText, date, postId, commentId }) => {
   // Function to handle editing a comment
 
   const onEdit = async (updatedText) => {
@@ -12,11 +12,15 @@ const Comment = ({ commentText, date, postid, commentId }) => {
 
   const onDelete = async () => {
     // Delete comment from Supabase
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from("Comments") // Make sure 'Comments' matches your table name exactly
       .delete()
-      .match({ id: commentId, postid: postid }); // match both comment ID and post ID for safety
+      .match({ id: commentId, postid: postId }); // match both comment ID and post ID for safety
 
+    if (!commentId || !postId) {
+      alert("Invalid comment or post ID!");
+      return;
+    }
     if (error) {
       alert("Error deleting comment:", error.message);
     } else {
