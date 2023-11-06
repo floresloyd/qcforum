@@ -24,25 +24,6 @@
   opacity: 0.8;
 }
 
-/* Assuming that the edit button is yellow and the delete button is red, 
-   you can define two more classes for your sorting buttons. */
-
-.sort-by-date {
-  background-color: #3498db; /* Blue color */
-  color: white;
-  margin-right: 5px; /* Add some space between buttons */
-}
-
-.sort-by-likes {
-  background-color: #3498db; /* Blue color */
-  color: white;
-}
-
-/* Adjust margins as needed for layout */
-.sorting-buttons {
-  margin-bottom: 20px; /* Adjust as needed */
-}
-
 .sortby-like-button,
 .sortby-date-button {
   padding: 5px 10px;
