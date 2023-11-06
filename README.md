@@ -6,24 +6,24 @@ This web app: **Queens College Forum: Your Go-To Campus Insight Tool**
 
 Welcome to the Queens College Forum, the dedicated digital hub for the Queens College student community! Designed with the spirit of transparency and student empowerment at its core, our platform revolutionizes the way you share and access honest feedback about courses and instructors.
 
-Discover the Difference: Anonymity with Impact
+# Discover the Difference: Anonymity with Impact
 
 We understand the value of candid communication—especially when it comes to your educational experience. That's why we've built an environment where your voice can be heard, loud and clear, without the hesitation that comes with identity disclosure. Share your classroom experiences, give constructive criticism, or praise the pedagogical prowess of your professors—all while maintaining your anonymity.
 
-Simplicity Meets Efficacy
+# Simplicity Meets Efficacy
 
 Our intuitive interface ensures that your journey from logging in to leaving a review is seamless. Whether you're on the go or between classes, providing your valuable insights is just a few taps away.
 
 Features Tailored for the Queens College Student:
 
-✅ Create with Ease: Post your reviews effortlessly with our straightforward submission form.
-✅ Rich Posts: Craft your message with a blend of text, titles, and visuals to fully express your classroom experiences.
-✅ Live Feed: Stay updated with real-time posts from fellow students, displaying the latest insights on your home screen.
-✅ Engaging Metrics: Gauge the pulse of your campus with post details such as creation time, title popularity, and upvote counts.
-✅ Focused Browsing: Jump straight to the content that matters to you by sorting posts by recency or upvotes and searching by title.
-✅ Dedicated Post Pages: Delve deeper into discussions with separate pages for each post, enriched with extended content and community comments.
-✅ Interactive Engagement: Participate in shaping campus opinion with comments and unlimited upvotes on post pages.
-✅ Content Control: Reflect upon your feedback? You have the power to edit or remove your posts, ensuring that your digital footprint aligns with your current views.
+- 🗸 Create with Ease: Post your reviews effortlessly with our straightforward submission form.
+- 🗸 Rich Posts: Craft your message with a blend of text, titles, and visuals to fully express your classroom experiences.
+- 🗸 Live Feed: Stay updated with real-time posts from fellow students, displaying the latest insights on your home screen.
+- 🗸 Engaging Metrics: Gauge the pulse of your campus with post details such as creation time, title popularity, and upvote counts.
+- 🗸 Focused Browsing: Jump straight to the content that matters to you by sorting posts by recency or upvotes and searching by title.
+- 🗸 Dedicated Post Pages: Delve deeper into discussions with separate pages for each post, enriched with extended content and community comments.
+- 🗸 Interactive Engagement: Participate in shaping campus opinion with comments and unlimited upvotes on post pages.
+- 🗸 Content Control: Reflect upon your feedback? You have the power to edit or remove your posts, ensuring that your digital footprint aligns with your current views.
 
 Time spent: **24** hours spent in total
 
