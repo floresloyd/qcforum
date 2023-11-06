@@ -48,3 +48,20 @@
   background-color: #0056b3; /* Darker shade of blue for hover effect */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow for hover effect */
 }
+
+/* COMMENT BOX STYLING  **/
+.commentbox-form {
+  display: flex; /* This will layout the children inline */
+  align-items: center; /* This aligns the items vertically */
+  gap: 10px; /* This adds some space between the textarea and the button */
+}
+
+.comment-input {
+  flex-grow: 1; /* Let the text area grow to fill the space */
+  border-radius: 4px; /* Optional: to match the button style */
+  padding: 10px; /* Optional: for consistent text area padding */
+}
+
+.submit-btn {
+  white-space: nowrap; /* Prevent the button text from wrapping */
+}

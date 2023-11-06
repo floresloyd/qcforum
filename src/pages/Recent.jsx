@@ -39,6 +39,7 @@ function Recent() {
             date={posts[index].created_at}
             post={posts[index].comment}
             likes={posts[index].likes}
+            context={"recent"}
           />
         ))
       ) : (
