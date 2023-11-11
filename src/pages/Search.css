@@ -1,0 +1,6 @@
+.container h1 {
+  margin: 0; /* Removes default margin */
+  /* Any other styles you want for your h1 */
+  color: #3d3d3d;
+  text-align: center;
+}

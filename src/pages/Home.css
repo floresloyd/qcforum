@@ -9,7 +9,8 @@
 }
 
 /* If you also want to style your h1 specifically */
-.centered-container h1 {
+.no-result-h1 {
   margin: 0; /* Removes default margin */
   /* Any other styles you want for your h1 */
+  color: white;
 }

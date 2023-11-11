@@ -76,7 +76,9 @@ const Form = () => {
       <h2>Create a new post</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="subject">Subject:</label>
+          <label className="form-font" htmlFor="subject">
+            Subject:
+          </label>
           <input
             id="subject"
             type="text"
@@ -88,7 +90,9 @@ const Form = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="courseCode">Course Code:</label>
+          <label className="form-font" htmlFor="courseCode">
+            Course Code:
+          </label>
           <input
             id="courseCode"
             type="text"
@@ -101,7 +105,9 @@ const Form = () => {
           />
         </div>
         <div className="form-group professor-name-group">
-          <label htmlFor="professorFirstName">Professor First Name:</label>
+          <label className="form-font" htmlFor="professorFirstName">
+            Professor First Name:
+          </label>
           <input
             id="professorFirstName"
             type="text"
@@ -111,7 +117,9 @@ const Form = () => {
             required
             placeholder="Pedro"
           />
-          <label htmlFor="professorLastName">Professor Last Name:</label>
+          <label className="form-font" htmlFor="professorLastName">
+            Professor Last Name:
+          </label>
           <input
             id="professorLastName"
             type="text"
@@ -119,11 +127,13 @@ const Form = () => {
             value={formData.professorLastName}
             onChange={handleChange}
             required
-            placeholder="Kalungsod"
+            placeholder="Calungsod"
           />
         </div>
         <div className="form-group">
-          <label htmlFor="header">Post Title:</label>
+          <label className="form-font" htmlFor="header">
+            Post Title:
+          </label>
           <input
             id="header"
             type="text"
@@ -135,7 +145,9 @@ const Form = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="comment">Comment:</label>
+          <label className="form-font" htmlFor="comment">
+            Comment:
+          </label>
           <textarea
             id="comment"
             name="comment"
@@ -145,7 +157,7 @@ const Form = () => {
             placeholder="He was a great professor. The class was exam heavy. 20% For Midterm 1 and 2. 50% Final. 10% Attendance"
           />
         </div>
-        <button type="submit" className="button">
+        <button type="submit" className="button-form">
           Create
         </button>
       </form>

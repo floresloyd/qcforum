@@ -72,7 +72,7 @@ function Card({
           <div>
             {" "}
             <Link to={`/${id}/info`}>
-              <button onClick={onComment} className="button">
+              <button onClick={onComment} className="card-button">
                 More Info
               </button>
             </Link>
@@ -81,7 +81,7 @@ function Card({
         )}
         {context === "info" && (
           <div>
-            <button onClick={onLike} className="button">
+            <button onClick={onLike} className="like-card-button">
               👍
             </button>
             <span> Likes: {likeCount}</span>
@@ -99,7 +99,7 @@ function Card({
                 required
                 onChange={(e) => setComment(e.target.value)}
               />
-              <button type="submit" className="button">
+              <button type="submit" className="card-button">
                 Submit
               </button>
             </form>

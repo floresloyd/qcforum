@@ -2,13 +2,22 @@
   margin: 25px auto auto auto;
   padding: 1rem;
   max-width: 600px;
-  background-color: #f3f3f3;
+  background-color: transparent;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.create-post-container h2 {
+  color: #d3d3d3; /* This is a light grey color */
+  text-align: center;
+}
+
 .form-group {
   margin-bottom: 1rem;
+}
+
+.form-font {
+  color: #d3d3d3;
 }
 
 .form-group label {
@@ -29,8 +38,8 @@
   resize: vertical;
 }
 
-.button {
-  background-color: #007bff; /* Bootstrap primary blue */
+.button-form {
+  background-color: #f0ad4e; /* Bootstrap primary blue */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -43,9 +52,12 @@
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow */
   transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+
+  display: block; /* Will make the button a block-level element */
+  margin: 0 auto; /* Auto margin on both sides will center the button */
 }
 
-.button:hover {
-  background-color: #0056b3; /* Darker shade of blue for hover effect */
+.button-form:hover {
+  background-color: #f0ad4e; /* Darker shade of blue for hover effect */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow for hover effect */
 }

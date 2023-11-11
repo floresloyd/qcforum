@@ -28,8 +28,8 @@
   margin-bottom: 15px;
 }
 
-.button {
-  background-color: #007bff; /* Bootstrap primary blue */
+.card-button {
+  background-color: #f0ad4e; /* Bootstrap primary blue */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -44,8 +44,29 @@
   transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
 }
 
-.button:hover {
-  background-color: #0056b3; /* Darker shade of blue for hover effect */
+.card-button:hover {
+  background-color: #f0ad4e; /* Darker shade of blue for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow for hover effect */
+}
+
+.like-card-button {
+  background-color: #93caed; /* Bootstrap primary blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.like-card-button:hover {
+  background-color: #93caed; /* Darker shade of blue for hover effect */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow for hover effect */
 }
 

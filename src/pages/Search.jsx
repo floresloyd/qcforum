@@ -42,7 +42,7 @@ function Search() {
         <Searchbar onSearch={onSearch} />
         {/* Optionally render search results here */}
       </div>
-      <div className="container margin-top">
+      <div className="container margin-top font-color">
         {searchResults && searchResults.length > 0 ? (
           searchResults.map((search, index) => (
             <Card
@@ -63,7 +63,11 @@ function Search() {
             />
           ))
         ) : (
-          <h2>{"No results for this search"}</h2>
+          <h2 className="no-result-h1">
+            {
+              "Search by :  Professor Last Name, CourseCode (EX: CSCI), or Post title "
+            }
+          </h2>
         )}
       </div>
     </div>
