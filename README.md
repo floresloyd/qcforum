@@ -70,7 +70,10 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+![GIF](./src//assets/gif-walk.gif)
+
+Here's the full walkthrough link:
+[Watch the Video](https://clipchamp.com/watch/8JzsMFOy2aL)
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
