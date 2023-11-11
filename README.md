@@ -68,6 +68,11 @@ The following **additional** features are implemented:
 ![Search](./src/assets/3search.png)
 ![Posts](./src/assets/4post.png)
 
+## Mobile Sizing
+
+![mobile-home](./src/assets/mobile-home.jpeg)
+![mobile-posts](./src/assets/mobile-recent.jpeg)
+
 ## Video Walkthrough
 
 ![GIF](./src//assets/gif-walk.gif)
