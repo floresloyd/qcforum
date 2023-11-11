@@ -59,6 +59,14 @@ The following **additional** features are implemented:
 - [🗸] Styled with bootstrap
 - [🗸] Mobile Responsive
 - [🗸] Relational Database that connects post and comments
+- [🗸] Automatic form formatting and validation. Subject auto all caps, coursecode only numbers, Auto capitalize first letter for name.
+
+## Photo Snippets
+
+![Home Screen](./src/assets/1home.png)
+![Create Post](./src/assets/2createpost.png)
+![Search](./src/assets/3search.png)
+![Posts](./src/assets/4post.png)
 
 ## Video Walkthrough
 
@@ -70,10 +78,7 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with ...
 
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Microsoft Clipchamp
 
 ## Notes
 
